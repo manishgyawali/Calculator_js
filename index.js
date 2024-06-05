@@ -1,11 +1,8 @@
-Value =() =>{
-    console.log(6)
-
+Value =(num) =>{
+console.log(num);
 }
 result =() =>{
-    console.log("result")
 
 }
 operator =() =>{
-console.log(8)
 }
