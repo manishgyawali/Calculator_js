@@ -65,20 +65,20 @@ span{
 
 }
  .item-num-zero {
-    background-color: gray;
+    background-color: #333333;
     color: white;
 }
 
 .operators {
-    background-color: #F69906;
+    background-color: #FF9500;
     color: white;
 }
 
 .item-num {
-    background-color: gray;
+    background-color: #333333;
     color: white;
 }
 
 .items {
-    background-color: rgb(196, 186, 186);
+    background-color: #D4D4D2;
 }
