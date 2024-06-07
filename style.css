@@ -11,6 +11,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 /* <!-- -------- Top section -------- --> */
 
 
@@ -20,24 +21,25 @@ body {
     padding: 40px;
     box-shadow: 10px 10px 70px rgba(241, 241, 235, 0.3);
     border-radius: 50px;
-    
+
 }
 
 
-.result input  {
+.result input {
     color: black;
     text-align: right;
     font-size: 25px;
     border-radius: 10px;
     margin-top: 10px;
-   width:300px;
-   height: 50px;
-   outline:none;
-   background-color:#D4D4D2;
-    
+    width: 300px;
+    height: 50px;
+    outline: none;
+    background-color: #D4D4D2;
+
 
 }
-span{
+
+span {
     padding-right: 10px;
 }
 
@@ -49,7 +51,7 @@ span{
     flex-wrap: wrap;
     gap: 5px;
     margin-top: 35px;
-   
+
 }
 
 .button {
@@ -57,8 +59,8 @@ span{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 7px;
-    
-    
+
+
 }
 
 .allbuttons button {
@@ -68,11 +70,12 @@ span{
     font-weight: 600;
     flex: 1 1 70px;
     cursor: pointer;
- 
+
 
 
 }
- .item-num-zero {
+
+.item-num-zero {
     background-color: #333333;
     color: white;
 }
