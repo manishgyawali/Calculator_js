@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -10,9 +11,10 @@ body {
     align-items: center;
     height: 100vh;
 }
+/* <!-- -------- Top section -------- --> */
+
 
 .border {
-    /* border: 0.5px solid white; */
     margin: 100px 50px;
     width: 320px;
     padding: 40px;
@@ -22,19 +24,25 @@ body {
 }
 
 
-.result  {
-    color: white;
+.result input  {
+    color: black;
     text-align: right;
-    font-size: 3em;
-    border: 1px solid white;
+    font-size: 25px;
     border-radius: 10px;
     margin-top: 10px;
+   width:300px;
+   height: 50px;
+   outline:none;
+   background-color:#D4D4D2;
     
 
 }
 span{
     padding-right: 10px;
 }
+
+/* <!-- -------- Mid section -------- --> */
+
 
 .allbuttons {
     display: flex;

@@ -1,8 +1,17 @@
+let firstvalue = "";
+let secondvalue = "";
+let opt = "";
+let add = document.getElementById('display');
+
 Value =(num) =>{
-console.log(num);
+
+
 }
+
+
 result =() =>{
 
 }
 operator =() =>{
 }
+
