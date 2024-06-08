@@ -38,7 +38,7 @@ output=Number(firstvalue)/Number(secondvalue);
 
   } 
   else if (opt == "%") {
-    console.log("%");
+    console.log("%"); 
 output=Number(firstvalue)%Number(secondvalue);
 
   } 
