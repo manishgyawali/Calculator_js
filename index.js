@@ -16,42 +16,29 @@ const Value = (num) => {
 };
 
 result = () => {
-  if (opt == "+") 
-    {
+  if (opt == "+") {
     console.log("+");
-  output=Number(firstvalue)+Number(secondvalue);
-
-  } 
-  else if (opt == "-") {
+    output = Number(firstvalue) + Number(secondvalue);
+  } else if (opt == "-") {
     console.log("-");
-output=Number(firstvalue)-Number(secondvalue);
-
-  }
-   else if (opt == "*") {
+    output = Number(firstvalue) - Number(secondvalue);
+  } else if (opt == "*") {
     console.log("*");
-output=Number(firstvalue)*Number(secondvalue);
-
-  }
-   else if (opt == "/") {
+    output = Number(firstvalue) * Number(secondvalue);
+  } else if (opt == "/") {
     console.log("/");
-output=Number(firstvalue)/Number(secondvalue);
-
-  } 
-  else if (opt == "%") {
-    console.log("%"); 
-output=Number(firstvalue)%Number(secondvalue);
-
-  } 
-  else {
+    output = Number(firstvalue) / Number(secondvalue);
+  } else if (opt == "%") {
+    console.log("%");
+    output = Number(firstvalue) % Number(secondvalue);
+  } else {
     console.log("invalid operator");
   }
 
-add.value=output;
+  add.value = output;
 };
-
 
 const operator = (A) => {
   opt = A;
   add.value += opt;
-  
 };
