@@ -49,6 +49,7 @@ output=Number(firstvalue)%Number(secondvalue);
 add.value=output;
 };
 
+
 const operator = (A) => {
   opt = A;
   add.value += opt;
