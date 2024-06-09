@@ -6,6 +6,7 @@ let add = document.getElementById("display");
 
 const Value = (num) => {
   if (opt.length <= 0) {
+    
     firstvalue += num;
     add.value = firstvalue;
   } else {
