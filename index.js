@@ -16,6 +16,8 @@ const Value = (num) => {
   console.log(firstvalue, secondvalue, opt);
 };
 
+
+
 result = () => {
   if (opt == "+") {
     console.log("+");
