@@ -4,6 +4,7 @@ let opt = "";
 let output = 0;
 let add = document.getElementById("display");
 
+
 const Value = (num) => {
   if (opt.length <= 0) {
     
@@ -45,3 +46,4 @@ const operator = (A) => {
   opt = A;
   add.value += opt;
 };
+
